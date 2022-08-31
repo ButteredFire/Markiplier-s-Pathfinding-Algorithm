@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Interactive Tracker</string>
+    <string name="title_activity_apirequest">APIRequest</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="api_description">An API Key is required to use YouTube\'s Data API Services.</string>
+    <string name="api_heading">Made exclusively for …?</string>
+    <string name="api_inputhint">Google Developers API Key</string>
+    <string name="api_btntext">USE API KEY</string>
+    <string name="api_savekey">Save API key</string>
+    <string name="infomsg_apikey_valid">If API Key is valid, the top image banner should appear.</string>
+    <string name="prev_str">Preview String</string>
+    <string name="prev_err_str">PREVIEW ERROR STRING</string>
+    <string name="regMsg">Processing…</string>
+    <string name="tv_settings">Settings</string>
+    <string name="tv_general">General</string>
+    <string name="title_activity_results">Results</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

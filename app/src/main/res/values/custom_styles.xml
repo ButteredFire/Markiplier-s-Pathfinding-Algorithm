@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedBottom">
+        <item name="cornerSizeBottomRight">100%</item>
+        <item name="cornerFamilyBottomRight">cut</item>
+
+        <item name="cornerSizeBottomLeft">100%</item>
+        <item name="cornerFamilyBottomLeft">cut</item>
+
+    </style>
+
+    <style name="CutCorners">
+        <item name="cornerSizeBottomLeft">100%</item>
+        <item name="cornerSizeBottomRight">100%</item>
+        <item name="cornerSizeTopLeft">100%</item>
+        <item name="cornerSizeTopRight">100%</item>
+
+        <item name="cornerFamilyBottomLeft">cut</item>
+        <item name="cornerFamilyBottomRight">cut</item>
+        <item name="cornerFamilyTopLeft">cut</item>
+        <item name="cornerFamilyTopRight">cut</item>
+
+    </style>
+
+
+    <style name="BaseAppTheme" parent="android:Theme.Material">
+        <item name="android:windowContentTransitions">true</item>
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@transition/explode</item>
+        <item name="android:windowExitTransition">@transition/explode</item>
+
+        <!-- specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/change_image_transform</item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/change_image_transform</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Button.IconOnly">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">12dp</item>
+        <item name="android:minHeight">12dp</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+
+</resources>
